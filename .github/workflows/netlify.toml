@@ -1,0 +1,14 @@
+[build]
+  command = "npm run build"
+  publish = "dist" 
+
+[context.production.environment]
+  NODE_ENV = "production"
+
+[context.split1]
+  command = "npm run build:split1"
+  publish = "split1/dist"
+
+[context.split2]
+  command = "npm run build:split2"
+  publish = "split2/dist"
