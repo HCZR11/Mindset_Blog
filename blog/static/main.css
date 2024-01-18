@@ -78,3 +78,27 @@ a.article-title:hover {
 .account-heading {
   font-size: 2.5rem;
 }
+
+/*About*/
+
+#about {
+ background-color: #f8f9fa; /* Culoare de fundal pală */
+ padding: 50px 0; /* Spadare verticală de 50px și fără spadare orizontală */
+ text-align: center; /* Alinierea textului la centru */
+}
+
+#about .container {
+ max-width: 800px; /* Limită lățimea containerele */
+ margin: 0 auto; /* Aliniază containerul la centru */
+}
+
+#about h2 {
+ font-size: 36px; /* Dimensiunea fontului mai mare */
+ margin-bottom: 30px; /* Adaugă un spațiu între titlul și paragraful */
+ color: #4a4a4a; /* Culoare de text întunecată */
+}
+
+#about p {
+ font-size: 20px; /* Dimensiunea fontului mai mică */
+ color: #777; /* Culoare de text ușor întunecată */
+}

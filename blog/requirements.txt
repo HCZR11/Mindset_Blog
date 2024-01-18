@@ -1,0 +1,5 @@
+flask-mail
+flask-login
+SQLite-3.10.2
+Flask-1.0.0
+
