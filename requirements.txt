@@ -84,7 +84,7 @@ jsonschema==4.17.3
 keras==2.11.0
 keyring==23.11.0
 Kivy==2.2.1
-kivy-deps.glew==0.3.1
+
 kivy-deps.sdl2==0.6.0
 Kivy-Garden==0.1.5
 kiwisolver==1.4.5
