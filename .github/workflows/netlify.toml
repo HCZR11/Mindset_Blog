@@ -1,4 +1,4 @@
 [build]
-CI= "npm run build"
+CI = "npm run build"
 publish = "public/"
 base = "C:/Users/pc/Pycharm/Projects/Blog_Mindset"
