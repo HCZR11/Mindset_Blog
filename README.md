@@ -1,26 +1,34 @@
 # Mindset_Blog
 
-# Introduction
+# Title
 
-This is a detailed README file for my Git repo.
+- [Introduction](#introduction)
+ - [Background](#background)
+ - [Goals](#goals)
 
-## Features
+- [Features](#features)
+ - [Feature 1](#feature-1)
+ - [Feature 2](#feature-2)
+ - [Feature 3](#feature-3)
 
-Here are the features of my project:
+- [Installation](#installation)
+ - [Prerequisites](#prerequisites)
+ - [Instructions](#instructions)
 
-- Feature 1
-- Feature 2
-- Feature 3
+- [Usage](#usage)
+ - [Examples](#examples)
+ - [API](#api)
 
-- ## Build Status
+- [Testing](#testing)
+ - [Unit Tests](#unit-tests)
+ - [Integration Tests](#integration-tests)
 
-[![Build Status](https://travis-ci.org/username/repo.svg?branch=master)](https://travis-ci.org/username/repo)
+- [Build Status](#build-status)
+ - [Badges](#badges)
 
-```vbnet
-' This is a code snippet in VB.NET
-Public Sub Example()
-    Console.WriteLine("Hello, world!")
-End Sub
+- [Resources](#resources)
+ - [Documentation](#documentation)
+ - [Issue Tracker](#issue-tracker)
+ - [Changelog](#changelog)
 
-
-![My Project Logo](https://github.com/username/repo/blob/master/logo.png)
+- [License](#license)
