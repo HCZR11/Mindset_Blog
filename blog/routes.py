@@ -4,7 +4,7 @@ from PIL import Image
 from flask import render_template, url_for, flash, redirect, request, abort
 from blog import app, db, bcrypt, mail
 from blog.forms import (RegistrationForm, LoginForm, UpdateAccountForm,
-                        PostForm, RequestResetForm, ResetPasswordForm)
+                             PostForm, RequestResetForm, ResetPasswordForm)
 from blog.models import User, Post
 from flask_login import login_user, current_user, logout_user, login_required
 from flask_mail import Message
@@ -151,8 +151,8 @@ def delete_post(post_id):
 def user_posts(username):
     page = request.args.get('page', 1, type=int)
     user = User.query.filter_by(username=username).first_or_404()
-    posts = Post.query.filter_by(author=user) \
-        .order_by(Post.date_posted.desc()) \
+    posts = Post.query.filter_by(author=user)\
+        .order_by(Post.date_posted.desc())\
         .paginate(page=page, per_page=5)
     return render_template('user_posts.html', posts=posts, user=user)
 
